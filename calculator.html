@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Calculator</title>
+    <style>
+        .calculator{
+            position: relative;
+            width: 300px;
+            border: 1px solid #c7c7c7 ;
+            padding: 5px;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius:5px;
+        }
+        input[type="text"]{
+            position: relative;
+           display: block;
+            font-size: 25px;
+            padding: 2px;
+            margin-top: 5px;
+            margin-right: auto;
+            margin-left: auto;
+            width: 93%;
+        }
+        input[type="button"]{
+            background-color: #c7c7c7;
+            width: 20%;
+            margin: 2%;
+            font-size: 20px;
+            border-radius:5px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="calculator">
+        <form action="" name="calculator">
+           <div class="viewer">
+
+               <input type="text" name="answer">
+
+           </div>
+            <br>
+            <input type="button" value="1" onclick="calculator.answer.value +='1'">
+            <input type="button" value="2" onclick="calculator.answer.value +='2'">
+            <input type="button" value="3" onclick="calculator.answer.value +='3'">
+            <input type="button" value="+" onclick="calculator.answer.value +='+'">
+            <br>
+            <input type="button" value="4" onclick="calculator.answer.value +='4'">
+            <input type="button" value="5" onclick="calculator.answer.value +='5'">
+            <input type="button" value="6" onclick="calculator.answer.value +='6'">
+            <input type="button" value="-" onclick="calculator.answer.value +='-'">
+            <br>
+            <input type="button" value="7" onclick="calculator.answer.value +='7'">
+            <input type="button" value="8" onclick="calculator.answer.value +='8'">
+            <input type="button" value="9" onclick="calculator.answer.value +='9'">
+            <input type="button" value="x" onclick="calculator.answer.value +='*'">
+            <br>
+            <input type="button" value="0" onclick="calculator.answer.value +='0'">
+            <input type="button" value="CA" onclick="calculator.answer.value =''">
+            <input type="button" value="=" onclick="calculator.answer.value =eval(calculator.answer.value)">
+            <input type="button" value="/" onclick="calculator.answer.value +='/'">
+
+        </form>
+    </div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,69 @@
+body{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    max-width: 400px;
+   margin-right: auto;
+    margin-left: auto;
+}
+.may_tinh{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 2%;
+    padding-left: 2%;
+    border: 1px solid black;
+    width: 100%;
+}
+.bieu_thuc{
+
+    display: inline-block;
+    font-size: 13px;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+#man_hinh{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    border: 1px solid red;
+    font-size: 30px;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    text-align: right;
+}
+.ban_phim{
+   /* border: 1px solid yellow;*/
+}
+.hang{
+    position: relative;
+
+    width: 100%;
+    display: table;
+}
+.phim{
+    cursor: pointer;
+    display: table;
+    box-sizing: border-box;
+    width: 23%;
+    float: left;
+    text-align: center;
+    border: 1px solid #c6c6c6;
+    color: #444;
+    font-size: 15px;
+    border-radius: 1px;
+    margin: 1%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.phim_chuc_nang{
+    background-color: #d6d6d6;
+    color: #444;
+    text-align: center;
+}
